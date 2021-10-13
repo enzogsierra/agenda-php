@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS agendaphp;
+
+CREATE TABLE agendaphp.contactos
+(
+    id SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(64) NOT NULL,
+    compania VARCHAR(64) NOT NULL,
+    telefono VARCHAR(16) NOT NULL
+);

@@ -1,0 +1,15 @@
+{
+    "name": "enzom/agenda-php",
+    "type": "project",
+    "license": "no",
+    "require": {},
+    "autoload": 
+    {
+        "psr-4": 
+        {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}

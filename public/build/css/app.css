@@ -1,0 +1,84 @@
+html 
+{
+    box-sizing: border-box;
+}
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    background-color: #EEF0F2;
+}
+a
+{ 
+    color: white;
+    text-decoration: none;
+}
+a:hover { color: white; }
+
+
+
+/* HEADER */
+.header-hero
+{
+    background-color: #312F2F;
+    margin-bottom: 2rem;
+}
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-h1
+{
+    margin: 1rem;
+
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* AÑADIR CONTACTO */
+@media(max-width: 768px)
+{
+    .contact-add-fieldset { flex-direction: column; }
+    .contact-add-btn > button { width: 100%; }
+}
+
+
+/* CONTACTOS */
+.contact-action-btn
+{  
+    font-size: 1.5rem;
+
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+
+
+/*** utilidades ***/
+.section
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #afafaf;
+    border-radius: 8px;
+}
+
+.bg-white
+{
+    background-color: white;
+}
+
+.icon
+{
+    display: inline;
+    width: 2rem;
+    height: 2rem;
+}
